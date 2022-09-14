@@ -14,9 +14,9 @@ function App() {
       <Nav />
       <main className="px-12 py-6 md:col-span-4 bg-cyan-50">
         {/* <h3 className="text-3xl">Hello</h3> */}
-        {/* <AuthButtons />
+        <AuthButtons />
         <Header />
-        <Trending /> */}
+        {/* <Trending /> */}
       </main>
     </div>
   );
