@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 
-// import Header from './components/Header';
+import Header from './components/Header';
 import Nav from './components/Nav/index';
 
 import './App.css';
@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="grid md:grid-cols-5">
-      {/* <Nav /> */}
+      <Nav />
       <main className="px-12 py-6 md:col-span-4 bg-cyan-50">
         {/* <h3 className="text-3xl">Hello</h3> */}
         {/* <AuthButtons />
